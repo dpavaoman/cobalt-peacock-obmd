@@ -46,6 +46,21 @@ svg * {
 	--color-purple: #D197D9;
 
 
+
+	--color-red: var(--color-pink);
+	--color-blue: var(--color-comment-blue);
+	--color-pink: var(--color-salmon);
+
+	--color-red-rgb: 255, 98, 140;
+	--color-orange-rgb: 255, 157, 0;
+	--color-yellow-rgb: 255, 238, 128;
+	--color-green-rgb: 158, 255, 128;
+	--color-cyan-rgb: 158, 255, 255;
+	--color-blue-rgb: 0, 136, 255;
+	--color-purple-rgb: 209, 151, 217;
+	--color-pink-rgb: 237, 146, 153;
+
+
 	--color-salmon: #ed9299;
 	--color-mint: #2affdf;
 
@@ -65,6 +80,19 @@ svg * {
 
 	--background-primary: #002240;
 	--background-secondary: #011627;
+	--background-primary-alt: var(--color-dark-blue);
+	--background-secondary-alt: var(--color-deep-blue);
+	--background-modifier-hover: var(--color-deep-blue);
+	--background-modifier-active-hover: var(--color-dark-blue);
+	--background-modifier-border-hover: var(--color-yellow);
+	--background-modifier-border-focus: var(--color-yellow);
+
+	--interactive-normal: var(--color-deep-blue);
+	--interactive-hover: var(--color-selected-blue);
+	--interactive-accent: var(--color-comment-blue);
+	--interactive-accent-hsl: 208, 100%, 50%;
+	--interactive-accent-hover: var(--color-light-blue);
+
 	--icon-color: #ffffff;
 	--icon-color-hover: var(--color-yellow);
 	--icon-color-active: var(--color-yellow);
@@ -85,13 +113,13 @@ svg * {
 	--status-bar-text-color: #FFFFFF;
 
 	--nav-item-color: var(#FFFFFF)	;
-	--nav-item-color-hover:	var(--color-selected-blue);
+	--nav-item-color-hover:	var(--color-yellow);
 	--nav-item-color-active:var(--color-orange)	;
-	--nav-item-color-selected:var(--color-selected-blue)	;
+	--nav-item-color-selected:var(--color-deep-blue)	;
 	--nav-item-color-highlighted:	var(--color-selected-blue);
-	--nav-item-background-hover:	var(--color-yellow);
-	--nav-item-background-active:	var(--color-selected-blue);
-	--nav-item-background-selected:	var(--color-selected-blue);
+	--nav-item-background-hover:	var(--color-selected-blue);
+	--nav-item-background-active:	var(--color-deep-blue);
+	--nav-item-background-selected:	var(--color-light-green);
 	--nav-indetation-guide-color:	var(--color-pink);
 	--nav-collapse-icon-color:	var(--color-pink);
 	--nav-collapse-icon-color-collapsed: var(--color-pink);
@@ -180,6 +208,7 @@ svg * {
 	--checkbox-border-color-hover: var(--color-selected-blue);
 	--checklist-done-decoration: line-through;
 	--checklist-done-color: var(--color-comment-blue);
+	--list-marker-color: var(--color-salmon);
 
 	--indentation-guide-color: #ed9299;
   }
